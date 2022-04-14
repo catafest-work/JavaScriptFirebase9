@@ -6,12 +6,12 @@ import { getFirestore , collection, onSnapshot, getDocs, addDoc, deleteDoc, doc,
 import { getAuth, createUs, createUserWithEmailAndPassword, signOut, signIn, signInWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBtQJfpDvAsbwI4C9UIEgv75aJO7z0t4Tg",
+    apiKey: "",
     authDomain: "javascriptfirebase001.firebaseapp.com",
     projectId: "javascriptfirebase001",
     storageBucket: "javascriptfirebase001.appspot.com",
-    messagingSenderId: "955216490492",
-    appId: "1:955216490492:web:67712a226b741126ec0c79"
+    messagingSenderId: "",
+    appId: ""
   };
   
   // init firebase app
